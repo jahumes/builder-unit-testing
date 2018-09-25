@@ -218,6 +218,28 @@
     "@schematics/angular" "^0.6.8"
     rxjs "^6.2.1"
 
+"@fortawesome/angular-fontawesome@^0.2.0":
+  version "0.2.0"
+  resolved "https://nexus.simplifile.com/content/repositories/npm/@fortawesome/angular-fontawesome/-/angular-fontawesome-0.2.0.tgz#2a072fb0538223f0c90447af50340ddfbed73585"
+  dependencies:
+    tslib "^1.9.0"
+
+"@fortawesome/fontawesome-common-types@^0.2.4":
+  version "0.2.4"
+  resolved "https://nexus.simplifile.com/content/repositories/npm/@fortawesome/fontawesome-common-types/-/fontawesome-common-types-0.2.4.tgz#7c560ff732c6c7c7c179ae25227ce5449e6f6d65"
+
+"@fortawesome/fontawesome-svg-core@^1.2.4":
+  version "1.2.4"
+  resolved "https://nexus.simplifile.com/content/repositories/npm/@fortawesome/fontawesome-svg-core/-/fontawesome-svg-core-1.2.4.tgz#2e40c65e66c7ad5aabc179a2d7c5827b1599905c"
+  dependencies:
+    "@fortawesome/fontawesome-common-types" "^0.2.4"
+
+"@fortawesome/free-solid-svg-icons@^5.3.1":
+  version "5.3.1"
+  resolved "https://nexus.simplifile.com/content/repositories/npm/@fortawesome/free-solid-svg-icons/-/free-solid-svg-icons-5.3.1.tgz#9660bece3c4850d58f1653e26c1693487ff74b08"
+  dependencies:
+    "@fortawesome/fontawesome-common-types" "^0.2.4"
+
 "@ngtools/webpack@6.1.5":
   version "6.1.5"
   resolved "https://nexus.simplifile.com/content/repositories/npm/@ngtools/webpack/-/webpack-6.1.5.tgz#134639686eb4519885ed27665babdf80ce098263"
@@ -443,6 +465,10 @@ acorn@^5.0.0, acorn@^5.5.3:
 acorn@^6.0.1:
   version "6.0.1"
   resolved "https://nexus.simplifile.com/content/repositories/npm/acorn/-/acorn-6.0.1.tgz#66e6147e1027704479dc6d9b20d884c572db3cc1"
+
+add@^2.0.6:
+  version "2.0.6"
+  resolved "https://nexus.simplifile.com/content/repositories/npm/add/-/add-2.0.6.tgz#248f0a9f6e5a528ef2295dbeec30532130ae2235"
 
 adm-zip@0.4.4:
   version "0.4.4"
@@ -3926,7 +3952,7 @@ lodash.tail@^4.1.1:
   version "4.1.1"
   resolved "https://nexus.simplifile.com/content/repositories/npm/lodash.tail/-/lodash.tail-4.1.1.tgz#d2333a36d9e7717c8ad2f7cacafec7c32b444664"
 
-lodash@^4.0.0, lodash@^4.13.1, lodash@^4.17.10, lodash@^4.17.3, lodash@^4.17.4, lodash@^4.17.5, lodash@~4.17.10:
+lodash@^4.0.0, lodash@^4.13.1, lodash@^4.17.10, lodash@^4.17.11, lodash@^4.17.3, lodash@^4.17.4, lodash@^4.17.5, lodash@~4.17.10:
   version "4.17.11"
   resolved "https://nexus.simplifile.com/content/repositories/npm/lodash/-/lodash-4.17.11.tgz#b39ea6229ef607ecd89e2c8df12536891cac9b8d"
 
@@ -6889,6 +6915,10 @@ yargs@^7.0.0:
     which-module "^1.0.0"
     y18n "^3.2.1"
     yargs-parser "^5.0.0"
+
+yarn@^1.9.4:
+  version "1.9.4"
+  resolved "https://nexus.simplifile.com/content/repositories/npm/yarn/-/yarn-1.9.4.tgz#3b82d8446b652775723900b470d966861976924b"
 
 yn@^2.0.0:
   version "2.0.0"

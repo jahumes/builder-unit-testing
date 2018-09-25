@@ -1,0 +1,484 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PageServiceTransformerService transform pages with params should get all paramters from the tree overriding values with the same key 1`] = `
+Object {
+  "items": Array [
+    Object {
+      "children": Array [
+        Object {
+          "label": "Default Label",
+          "link": Array [
+            "/testing/state/1",
+          ],
+          "queryParams": Object {},
+        },
+        Object {
+          "label": "Default Label",
+          "link": Array [
+            "/testing/state/2",
+          ],
+          "queryParams": Object {},
+        },
+        Object {
+          "label": "Default Label",
+          "link": Array [
+            "/testing/state/3",
+          ],
+          "queryParams": Object {},
+        },
+      ],
+      "label": "Default Label",
+      "link": Array [
+        "/default/state",
+      ],
+      "queryParams": Object {},
+    },
+  ],
+  "parent": Object {
+    "label": "Default Label",
+    "link": Array [
+      "",
+    ],
+    "queryParams": Object {},
+  },
+}
+`;
+
+exports[`PageServiceTransformerService transform pages with params should map the param keys if paramMapping data is passed in 1`] = `
+Object {
+  "items": Array [
+    Object {
+      "children": Array [
+        Object {
+          "label": "Default Label",
+          "link": Array [
+            "testing",
+            "object",
+            "new",
+            "other",
+          ],
+          "queryParams": Object {},
+        },
+        Object {
+          "label": "Default Label",
+          "link": Array [
+            "testing",
+            "other",
+            "new",
+            "object",
+          ],
+          "queryParams": Object {},
+        },
+      ],
+      "label": "Default Label",
+      "link": Array [
+        "/default/state",
+      ],
+      "queryParams": Object {},
+    },
+  ],
+  "parent": Object {
+    "label": "Default Label",
+    "link": Array [
+      "",
+    ],
+    "queryParams": Object {},
+  },
+}
+`;
+
+exports[`PageServiceTransformerService transform pages with params should parse an Angular link with the params 1`] = `
+Object {
+  "items": Array [
+    Object {
+      "children": Array [
+        Object {
+          "label": "Default Label",
+          "link": Array [
+            "testing",
+            "object",
+            "new",
+            "other",
+          ],
+          "queryParams": Object {},
+        },
+        Object {
+          "label": "Default Label",
+          "link": Array [
+            "testing",
+            "other",
+            "new",
+            "object",
+          ],
+          "queryParams": Object {},
+        },
+      ],
+      "label": "Default Label",
+      "link": Array [
+        "/default/state",
+      ],
+      "queryParams": Object {},
+    },
+  ],
+  "parent": Object {
+    "label": "Default Label",
+    "link": Array [
+      "",
+    ],
+    "queryParams": Object {},
+  },
+}
+`;
+
+exports[`PageServiceTransformerService transform pages with params should pass params as state options for an AngularJS page 1`] = `
+Object {
+  "items": Array [
+    Object {
+      "children": Array [
+        Object {
+          "label": "Default Label",
+          "link": Array [
+            "/testing/state/1",
+          ],
+          "queryParams": Object {},
+        },
+        Object {
+          "label": "Default Label",
+          "link": Array [
+            "/testing/state/2",
+          ],
+          "queryParams": Object {},
+        },
+        Object {
+          "label": "Default Label",
+          "link": Array [
+            "/testing/state/3",
+          ],
+          "queryParams": Object {},
+        },
+      ],
+      "label": "Default Label",
+      "link": Array [
+        "/default/state",
+      ],
+      "queryParams": Object {},
+    },
+  ],
+  "parent": Object {
+    "label": "Default Label",
+    "link": Array [
+      "",
+    ],
+    "queryParams": Object {},
+  },
+}
+`;
+
+exports[`PageServiceTransformerService transform pages with params should remap parameter values to new values if they exist 1`] = `
+Object {
+  "items": Array [
+    Object {
+      "children": Array [
+        Object {
+          "label": "Default Label",
+          "link": Array [
+            "/testing/state/1",
+          ],
+          "queryParams": Object {},
+        },
+        Object {
+          "label": "Default Label",
+          "link": Array [
+            "/testing/state/2",
+          ],
+          "queryParams": Object {},
+        },
+        Object {
+          "label": "Default Label",
+          "link": Array [
+            "/testing/state/3",
+          ],
+          "queryParams": Object {},
+        },
+      ],
+      "label": "Default Label",
+      "link": Array [
+        "/default/state",
+      ],
+      "queryParams": Object {},
+    },
+  ],
+  "parent": Object {
+    "label": "Default Label",
+    "link": Array [
+      "",
+    ],
+    "queryParams": Object {},
+  },
+}
+`;
+
+exports[`PageServiceTransformerService transforming the pages should be able to transform simple pages 1`] = `
+Object {
+  "items": Array [
+    Object {
+      "label": "Default Label",
+      "link": Array [
+        "/testing/state/1",
+      ],
+      "queryParams": Object {},
+    },
+    Object {
+      "label": "Default Label",
+      "link": Array [
+        "/testing/state/2",
+      ],
+      "queryParams": Object {},
+    },
+    Object {
+      "label": "Default Label",
+      "link": Array [
+        "/testing/state/3",
+      ],
+      "queryParams": Object {},
+    },
+  ],
+  "parent": Object {
+    "label": "Default Label",
+    "link": Array [
+      "/testing/state/parent",
+    ],
+    "queryParams": Object {},
+  },
+}
+`;
+
+exports[`PageServiceTransformerService transforming the pages should get a link from the first child if no state is set on the parent 1`] = `
+Object {
+  "items": Array [
+    Object {
+      "children": Array [
+        Object {
+          "label": "Default Label",
+          "link": Array [
+            "/testing/state/2/1",
+          ],
+          "queryParams": Object {},
+        },
+        Object {
+          "label": "Default Label",
+          "link": Array [
+            "/testing/state/2/2",
+          ],
+          "queryParams": Object {},
+        },
+        Object {
+          "label": "Default Label",
+          "link": Array [
+            "/testing/state/2/3",
+          ],
+          "queryParams": Object {},
+        },
+      ],
+      "label": "Default Label",
+      "link": Array [
+        "/testing/state/2/1",
+      ],
+      "queryParams": Object {},
+    },
+  ],
+  "parent": Object {
+    "label": "Default Label",
+    "link": Array [
+      "/testing/state/parent",
+    ],
+    "queryParams": Object {},
+  },
+}
+`;
+
+exports[`PageServiceTransformerService transforming the pages should output an empty string if the page has no valid state 1`] = `
+Object {
+  "items": Array [
+    Object {
+      "label": "Default Label",
+      "link": Array [
+        "",
+      ],
+      "queryParams": Object {},
+    },
+    Object {
+      "label": "Default Label",
+      "link": Array [
+        "/default/state",
+      ],
+      "queryParams": Object {},
+    },
+  ],
+  "parent": Object {
+    "label": "Default Label",
+    "link": Array [
+      "/testing/state/parent",
+    ],
+    "queryParams": Object {},
+  },
+}
+`;
+
+exports[`PageServiceTransformerService transforming the pages should parse child pages if set 1`] = `
+Object {
+  "items": Array [
+    Object {
+      "label": "Default Label",
+      "link": Array [
+        "admin",
+        "testing",
+        12,
+      ],
+      "queryParams": Object {},
+    },
+    Object {
+      "children": Array [
+        Object {
+          "label": "Default Label",
+          "link": Array [
+            "/testing/state/2/1",
+          ],
+          "queryParams": Object {},
+        },
+        Object {
+          "label": "Default Label",
+          "link": Array [
+            "/testing/state/2/2",
+          ],
+          "queryParams": Object {},
+        },
+        Object {
+          "label": "Default Label",
+          "link": Array [
+            "/testing/state/2/3",
+          ],
+          "queryParams": Object {},
+        },
+      ],
+      "label": "Default Label",
+      "link": Array [
+        "/testing/state/2",
+      ],
+      "queryParams": Object {},
+    },
+  ],
+  "parent": Object {
+    "label": "Default Label",
+    "link": Array [
+      "/testing/state/parent",
+    ],
+    "queryParams": Object {},
+  },
+}
+`;
+
+exports[`PageServiceTransformerService transforming the pages should parse query params from a passed url 1`] = `
+Object {
+  "items": Array [
+    Object {
+      "label": "Default Label",
+      "link": Array [
+        "admin",
+        "testing",
+        12,
+      ],
+      "queryParams": Object {},
+    },
+    Object {
+      "label": "Default Label",
+      "link": Array [
+        "/testing/state/2",
+      ],
+      "queryParams": Object {
+        "another": "test",
+        "testing": "new",
+      },
+    },
+  ],
+  "parent": Object {
+    "label": "Default Label",
+    "link": Array [
+      "/testing/state/parent",
+    ],
+    "queryParams": Object {
+      "another": "test",
+      "testing": "new",
+    },
+  },
+}
+`;
+
+exports[`PageServiceTransformerService transforming the pages should use the link property on an AngularJSPage as the link 1`] = `
+Object {
+  "items": Array [
+    Object {
+      "label": "Default Label",
+      "link": Array [
+        "admin",
+        "testing",
+        12,
+      ],
+      "queryParams": Object {},
+    },
+    Object {
+      "label": "Default Label",
+      "link": Array [
+        "/testing/state/2",
+      ],
+      "queryParams": Object {},
+    },
+  ],
+  "parent": Object {
+    "label": "Default Label",
+    "link": Array [
+      "/testing/state/parent",
+    ],
+    "queryParams": Object {},
+  },
+}
+`;
+
+exports[`PageServiceTransformerService transforming the parent should use either the state or the url if they are set and the other returns undefined 1`] = `
+Object {
+  "items": Array [],
+  "parent": Object {
+    "label": "Default Label",
+    "link": Array [
+      "/some/url.jsp",
+    ],
+    "queryParams": Object {},
+  },
+}
+`;
+
+exports[`PageServiceTransformerService transforming the parent should use either the state or the url if they are set and the other returns undefined 2`] = `
+Object {
+  "items": Array [],
+  "parent": Object {
+    "label": "Default Label",
+    "link": Array [
+      "/testing/state/url/1",
+    ],
+    "queryParams": Object {},
+  },
+}
+`;
+
+exports[`PageServiceTransformerService transforming the parent should use the state over the url 1`] = `
+Object {
+  "items": Array [],
+  "parent": Object {
+    "label": "Default Label",
+    "link": Array [
+      "/testing/state/url/1",
+    ],
+    "queryParams": Object {},
+  },
+}
+`;
