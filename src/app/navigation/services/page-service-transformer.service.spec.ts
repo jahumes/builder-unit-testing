@@ -159,13 +159,13 @@ describe('PageServiceTransformerService', () => {
                     .withPage(AngularjsPageBuilder.init().withState('testing.state.2'))
                     .withPage(AngularjsPageBuilder.init().withState('testing.state.3'))
             );
-            
+
             stateSnapshotMock = {
                 url: '',
                 root: ActivatedRouteBuilder.init()
                         .withFirstChild(ActivatedRouteBuilder.init().withParams({some: 'param'})).snapshot
             };
-            
+
             let navigation = transformer.transform(pageService, stateSnapshotMock);
 
             expect(navigation).toMatchSnapshot();
